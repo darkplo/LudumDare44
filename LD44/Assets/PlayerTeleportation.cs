@@ -18,7 +18,7 @@ public class PlayerTeleportation : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (isColliding) {
             InputsPlayer iPlayer = objectColliding.GetComponent<InputsPlayer>();
