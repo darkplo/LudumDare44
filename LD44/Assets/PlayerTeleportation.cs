@@ -25,20 +25,21 @@ public class PlayerTeleportation : MonoBehaviour
             if (iPlayer == null)
                 return;
             if (iPlayer.p_up && upTP != null) {
-                Debug.Log("Collide + UP");
-                iPlayer.p_up = false;
                 iPlayer.GetComponent<Transform>().position = upTP.transform.position;
             }
             else if (iPlayer.p_down && downTP != null) {
-                Debug.Log("Collide + DOWN");
-                iPlayer.p_down = false;
                 iPlayer.GetComponent<Transform>().position = downTP.transform.position;
             }
+            iPlayer.p_up = false;
+            iPlayer.p_down = false;
         }
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        if (col.GetComponent<InputsPlayer>() != null) {
+        InputsPlayer iPlayer = col.GetComponent<InputsPlayer>();
+        if (iPlayer != null) {
+            iPlayer.p_up = false;
+            iPlayer.p_down = false;
             isColliding = true;
             objectColliding = col;
         }
@@ -47,6 +48,5 @@ public class PlayerTeleportation : MonoBehaviour
     void OnTriggerExit2D(Collider2D col) {
         isColliding = false;
         objectColliding = null;
-        Debug.Log("stop collide");
     }
 }

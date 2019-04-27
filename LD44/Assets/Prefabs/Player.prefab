@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4070890904454480991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: -0.448, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4070890906225694521}
@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 4070890905154394258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 4070890906225694521}
   m_RootOrder: 2
@@ -189,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4070890906225694519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.68, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4070890904454480960}
@@ -260,9 +260,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.29}
+  m_Offset: {x: 0, y: -0.12}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.32
 --- !u!61 &4070890906225694525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -273,10 +273,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.42}
+  m_Offset: {x: 0, y: 0.23}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -285,9 +285,9 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 1.6, y: 1.4}
+  m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
 --- !u!50 &4070890906225694524
 Rigidbody2D:
@@ -418,6 +418,366 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 0fe61e0f-896b-489f-8c8a-7c7bc7f26d36
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 5331b5e6-f653-455a-80a1-1d06adfc7603
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 338aeb92-3c22-4ac1-9fab-92bc06f495ea
+    m_ActionName: Player/Climb
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cf259e1-4137-4893-8ad7-10a33bbda7d9
+    m_ActionName: Player/UnClimb
+  - m_PersistentCalls:
+      m_Calls: []
     m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
       Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
     m_ActionId: 5c5742ea-468e-4e9c-a165-acc60afcee62
