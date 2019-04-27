@@ -24,14 +24,24 @@ public class PlayerTeleportation : MonoBehaviour
             InputsPlayer iPlayer = objectColliding.GetComponent<InputsPlayer>();
             if (iPlayer == null)
                 return;
-            if (iPlayer.interract)
-                Debug.Log("INTERRACT");
+            if (iPlayer.p_up && upTP != null) {
+                Debug.Log("Collide + UP");
+                iPlayer.p_up = false;
+                iPlayer.GetComponent<Transform>().position = upTP.transform.position;
+            }
+            else if (iPlayer.p_down && downTP != null) {
+                Debug.Log("Collide + DOWN");
+                iPlayer.p_down = false;
+                iPlayer.GetComponent<Transform>().position = downTP.transform.position;
+            }
         }
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        isColliding = true;
-        objectColliding = col;
+        if (col.GetComponent<InputsPlayer>() != null) {
+            isColliding = true;
+            objectColliding = col;
+        }
     }
 
     void OnTriggerExit2D(Collider2D col) {
