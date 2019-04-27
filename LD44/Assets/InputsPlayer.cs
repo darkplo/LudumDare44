@@ -42,11 +42,13 @@ public class InputsPlayer : MonoBehaviour
 
 	public void Climb(InputAction.CallbackContext context)
 	{
-		Debug.Log("Climb");
+		if (context.performed && !context.started)
+			p_up = true;
 	}
 
 	public void ClimbDown (InputAction.CallbackContext context)
 	{
-		Debug.Log("UnClimb");
+		if (context.performed && !context.started)
+			p_down = true;
 	}
 }

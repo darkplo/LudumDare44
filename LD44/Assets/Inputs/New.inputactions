@@ -172,8 +172,32 @@
                 },
                 {
                     "name": "",
+                    "id": "3b9da4d7-84b2-490c-bcf3-78b3c526feac",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Climb",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
                     "id": "58def1e7-8a43-47fb-9589-625176c6a28f",
                     "path": "<Keyboard>/s",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "UnClimb",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "id": "5377e410-4acc-4e3b-a043-b5b85f261058",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "Press(behavior=1)",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",

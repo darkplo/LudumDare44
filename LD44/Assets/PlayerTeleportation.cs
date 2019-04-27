@@ -26,10 +26,12 @@ public class PlayerTeleportation : MonoBehaviour
                 return;
             if (iPlayer.p_up && upTP != null) {
                 Debug.Log("Collide + UP");
+                iPlayer.p_up = false;
                 iPlayer.GetComponent<Transform>().position = upTP.transform.position;
             }
             else if (iPlayer.p_down && downTP != null) {
                 Debug.Log("Collide + DOWN");
+                iPlayer.p_down = false;
                 iPlayer.GetComponent<Transform>().position = downTP.transform.position;
             }
         }
