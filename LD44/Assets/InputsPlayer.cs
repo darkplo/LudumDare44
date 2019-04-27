@@ -12,6 +12,7 @@ public class InputsPlayer : MonoBehaviour
 	public bool up=false, down=false;
 	public bool interract = false;
 	public float Speed = 40f;
+	public Animator anim;
 
 	private void Start()
 	{
@@ -30,6 +31,7 @@ public class InputsPlayer : MonoBehaviour
 		else if(mv.y<0)
 			down = true;
 		horizontalMove = mv.x * Speed;
+		anim.SetBool("isWalking", mv.x != 0);
 		
 	}
 	public void Jump(InputAction.CallbackContext context)
