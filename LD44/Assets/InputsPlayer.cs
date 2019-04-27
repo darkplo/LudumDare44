@@ -4,12 +4,15 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Experimental.Input;
 
-public class Movement : MonoBehaviour
+public class InputsPlayer : MonoBehaviour
 {
 	CharacterController2D charac2D;
 	float horizontalMove = 0f;
 	bool jump = false;
+	public bool up=false, down=false;
+	public bool interract = false;
 	public float Speed = 40f;
+
 	private void Start()
 	{
 		charac2D = GetComponent<CharacterController2D>();
@@ -17,17 +20,25 @@ public class Movement : MonoBehaviour
 	private void FixedUpdate()
 	{
 		charac2D.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
-		jump = false;
+		jump = up = down = false;
 	}
 	public void Move(InputAction.CallbackContext context)
 	{
 		Vector2 mv = context.ReadValue<Vector2>();
-		mv.y = 0;
+		if (mv.y > 0)
+			up = true;
+		else if(mv.y<0)
+			down = true;
 		horizontalMove = mv.x * Speed;
 		
 	}
 	public void Jump(InputAction.CallbackContext context)
 	{
 		jump = true;
+	}
+	public void Interract(InputAction.CallbackContext context)
+	{
+		interract = !interract;
+		Debug.Log("Hfiuods");
 	}
 }

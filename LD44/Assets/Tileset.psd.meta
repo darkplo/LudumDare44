@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6cc1db92320c90649b15b3660bb092f1
 TextureImporter:
   internalIDToNameTable:
@@ -110,6 +111,11 @@ TextureImporter:
   - first:
       213: 4060682636331337571
     second: Tileset_35
+=======
+guid: f65a9fd32b4f40a4ab2af0dda03f2285
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>> 75f7ef80d40660b02266a595368c3af0c6a39146
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -148,7 +154,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> 75f7ef80d40660b02266a595368c3af0c6a39146
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -177,6 +187,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
   - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -962,6 +973,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 8231f19c609030d408737fec26e7517c
+=======
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 30d95566c30aaf840957dc171d72c044
+>>>>>>> 75f7ef80d40660b02266a595368c3af0c6a39146
     internalID: 0
     vertices: []
     indices: 
@@ -970,7 +990,11 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
+<<<<<<< HEAD
   pSDShowRemoveMatteOption: 1
+=======
+  pSDShowRemoveMatteOption: 0
+>>>>>>> 75f7ef80d40660b02266a595368c3af0c6a39146
   userData: 
   assetBundleName: 
   assetBundleVariant: 

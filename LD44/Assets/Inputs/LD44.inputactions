@@ -28,7 +28,7 @@
                     "bindings": []
                 },
                 {
-                    "name": "Fire",
+                    "name": "Interract",
                     "id": "c81aa0b8-e271-489c-b12f-528f4c867ace",
                     "expectedControlLayout": "Button",
                     "continuous": false,
@@ -209,24 +209,12 @@
                 },
                 {
                     "name": "",
-                    "id": "4057c96e-9849-45a8-8e9c-ec74b41d5d93",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false,
-                    "modifiers": ""
-                },
-                {
-                    "name": "",
                     "id": "317e29fd-c513-41f5-b7bd-cea8d5f05260",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
-                    "groups": "",
-                    "action": "Fire",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Interract",
                     "isComposite": false,
                     "isPartOfComposite": false,
                     "modifiers": ""
@@ -237,7 +225,7 @@
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false,
