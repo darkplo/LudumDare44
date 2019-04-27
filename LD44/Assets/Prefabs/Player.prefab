@@ -281,7 +281,18 @@ MonoBehaviour:
     m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
     m_ActionName: Player/Look
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4070890906225694522}
+        m_MethodName: Interract
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
       Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
     m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
@@ -6579,6 +6590,816 @@ MonoBehaviour:
       Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
     m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
     m_ActionName: Player/Fire
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Fire
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Fire
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Fire
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Fire
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ded0a707-f504-4f56-a204-2642d187a1ee
+    m_ActionName: Player/Jump
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 732104e7-e5da-4207-893b-9aa9d5c55613
+    m_ActionName: UI/Navigate
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: a5bd3693-eb91-4d75-b478-53c6840a2d49
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6ccad8cb-de1d-4777-8cda-39bf166ee7a1
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: ce6096fd-9a9a-4f39-a7c3-b90b61e87e7b
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 6cd9d354-6816-43f9-af4d-83bd84efe6f1
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 8915dbe1-54ac-46bb-a8fc-26cc1ff45603
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: 7fa1679a-19e1-4614-aa66-80f2f124e612
+    m_ActionName: Player/Look
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
+      Unity.InputSystem, Version=0.2.8.0, Culture=neutral, PublicKeyToken=null
+    m_ActionId: c81aa0b8-e271-489c-b12f-528f4c867ace
+    m_ActionName: Player/Interract
   - m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput+ActionEvent,
