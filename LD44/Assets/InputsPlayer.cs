@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Experimental.Input;
 
-public class Movement : MonoBehaviour
+public class InputsPlayer : MonoBehaviour
 {
 	CharacterController2D charac2D;
 	float horizontalMove = 0f;
 	bool jump = false;
+	public bool interract = false;
 	public float Speed = 40f;
 	private void Start()
 	{
@@ -18,6 +19,7 @@ public class Movement : MonoBehaviour
 	{
 		charac2D.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
 		jump = false;
+		interract = false;
 	}
 	public void Move(InputAction.CallbackContext context)
 	{
@@ -29,5 +31,9 @@ public class Movement : MonoBehaviour
 	public void Jump(InputAction.CallbackContext context)
 	{
 		jump = true;
+	}
+	public void Interract(InputAction.CallbackContext context)
+	{
+		interract = true;
 	}
 }
