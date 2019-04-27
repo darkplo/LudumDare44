@@ -25,9 +25,9 @@ public class InputsPlayer : MonoBehaviour
 	}
 	public void Move(InputAction.CallbackContext context)
 	{
-		Vector2 mv = context.ReadValue<Vector2>();
-		horizontalMove = mv.x * Speed;
-		anim.SetBool("isWalking", mv.x != 0);
+		float mv = context.ReadValue<float>();
+		horizontalMove = mv * Speed;
+		anim.SetBool("isWalking", mv != 0);
 		
 	}
 	public void Jump(InputAction.CallbackContext context)
@@ -37,16 +37,16 @@ public class InputsPlayer : MonoBehaviour
 	public void Interract(InputAction.CallbackContext context)
 	{
 		interract = !interract;
-		Debug.Log("Hfiuods");
+		Debug.Log("Interract");
 	}
 
 	public void Climb(InputAction.CallbackContext context)
 	{
-
+		Debug.Log("Climb");
 	}
 
 	public void ClimbDown (InputAction.CallbackContext context)
 	{
-		
+		Debug.Log("UnClimb");
 	}
 }
