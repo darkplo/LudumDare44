@@ -9,7 +9,7 @@ public class InputsPlayer : MonoBehaviour
 	CharacterController2D charac2D;
 	float horizontalMove = 0f;
 	bool jump = false;
-	public bool up=false, down=false;
+	public bool p_up=false, p_down=false;
 	public bool interract = false;
 	public float Speed = 40f;
 
@@ -20,15 +20,11 @@ public class InputsPlayer : MonoBehaviour
 	private void FixedUpdate()
 	{
 		charac2D.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
-		jump = up = down = false;
+		jump = false;
 	}
 	public void Move(InputAction.CallbackContext context)
 	{
 		Vector2 mv = context.ReadValue<Vector2>();
-		if (mv.y > 0)
-			up = true;
-		else if(mv.y<0)
-			down = true;
 		horizontalMove = mv.x * Speed;
 		
 	}
@@ -40,5 +36,15 @@ public class InputsPlayer : MonoBehaviour
 	{
 		interract = !interract;
 		Debug.Log("Hfiuods");
+	}
+
+	public void Climb(InputAction.CallbackContext context)
+	{
+
+	}
+
+	public void ClimbDown (InputAction.CallbackContext context)
+	{
+		
 	}
 }
