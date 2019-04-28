@@ -21,7 +21,7 @@ public class PlayerTeleportation : MonoBehaviour
     void FixedUpdate()
     {
         if (isColliding) {
-            InputsPlayer iPlayer = objectColliding.GetComponent<InputsPlayer>();
+            InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
             if (iPlayer == null)
                 return;
             if (iPlayer.p_up && upTP != null) {
@@ -36,7 +36,7 @@ public class PlayerTeleportation : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        InputsPlayer iPlayer = col.GetComponent<InputsPlayer>();
+        InputsManager iPlayer = col.GetComponent<InputsManager>();
         if (iPlayer != null) {
             iPlayer.p_up = false;
             iPlayer.p_down = false;

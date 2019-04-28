@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Experimental.Input;
 
-public class InputsPlayer : MonoBehaviour
+public class InputsManager : MonoBehaviour
 {
 	CharacterController2D charac2D;
 	float horizontalMove = 0f;
