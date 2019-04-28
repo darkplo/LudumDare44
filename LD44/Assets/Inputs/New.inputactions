@@ -150,7 +150,7 @@
                     "name": "",
                     "id": "36a3d059-3378-4eef-9257-ccd90c6b0e34",
                     "path": "<Keyboard>/e",
-                    "interactions": "Press(behavior=2)",
+                    "interactions": "Press(behavior=1)",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Interract",
