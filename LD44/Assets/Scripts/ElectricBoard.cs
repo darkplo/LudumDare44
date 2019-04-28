@@ -34,6 +34,7 @@ public class ElectricBoard : MonoBehaviour
 					if (tp.enabled)
 					{
 						Debug.Log("MORT AHAHA T NUL");
+						iPlayer.GetComponent<Player>().Dead(dead.Defib);
 						inv.Remove(0);
 					}
 					tp.enabled = true;
