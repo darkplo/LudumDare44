@@ -118,7 +118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f7091120be6874dbd75e9e06efba1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invSlots: []
+  invSlots:
+  - {fileID: 1861969762193510241}
+  - {fileID: 1861969762701273100}
+  - {fileID: 1861969761410972118}
+  - {fileID: 1861969763097939536}
+  - {fileID: 1861969762530005952}
 --- !u!1 &1861969761410972114
 GameObject:
   m_ObjectHideFlags: 0

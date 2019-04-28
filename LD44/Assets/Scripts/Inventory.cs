@@ -24,7 +24,7 @@ public class Inventory : MonoBehaviour
 		if (slots.Count < maxOb)
 		{
 			slots.Add(ob);
-			invViewer.invSlots[slots.Count].sprite = ob.sprite;
+			invViewer.invSlots[slots.Count-1].sprite = ob.sprite;
 			return true;
 		}
 		else
