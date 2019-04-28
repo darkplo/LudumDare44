@@ -15,6 +15,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject backgroundCredits;
     public GameObject backgroundQuit;
     public GameObject backgroundBack;
+    public GameObject creditImage;
 
 
     public void playGame() {
@@ -64,7 +65,7 @@ public class MainMenuController : MonoBehaviour
         background.SetActive(false);
         SettingsButton.SetActive(false);
         creditMenu.SetActive(true);
-        backgroundBack.SetActive(true);
+        creditImage.SetActive(true);
     }
 
     public void back() {
@@ -73,6 +74,7 @@ public class MainMenuController : MonoBehaviour
         creditMenu.SetActive(false);
         settingsMenu.SetActive(false);
         backgroundBack.SetActive(false);
+        creditImage.SetActive(false);
         backgroundCredits.SetActive(false);
         background.SetActive(true);
     }
