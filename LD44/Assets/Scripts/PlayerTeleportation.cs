@@ -24,10 +24,20 @@ public class PlayerTeleportation : MonoBehaviour
             InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
             if (iPlayer == null)
                 return;
-            if (iPlayer.p_up && upTP != null) {
+            if (iPlayer.canMove && iPlayer.interract) {
+                iPlayer.canMove = false;
+                iPlayer.interract = false;
+                iPlayer.transform.GetChild(2).gameObject.SetActive(false);
+            }
+            else if (!iPlayer.canMove && iPlayer.interract) {
+                iPlayer.canMove = true;
+                iPlayer.interract = false;
+                iPlayer.transform.GetChild(2).gameObject.SetActive(true);
+            }
+            if (iPlayer.p_up && !iPlayer.canMove && upTP != null) {
                 iPlayer.GetComponent<Transform>().position = upTP.transform.position;
             }
-            else if (iPlayer.p_down && downTP != null) {
+            else if (iPlayer.p_down && !iPlayer.canMove && downTP != null) {
                 iPlayer.GetComponent<Transform>().position = downTP.transform.position;
             }
             iPlayer.p_up = false;
@@ -40,6 +50,7 @@ public class PlayerTeleportation : MonoBehaviour
         if (iPlayer != null) {
             iPlayer.p_up = false;
             iPlayer.p_down = false;
+            iPlayer.interract = false;
             isColliding = true;
             objectColliding = col;
         }

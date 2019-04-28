@@ -24,9 +24,11 @@ public class GroundObject : MonoBehaviour
 			InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
 			if (iPlayer == null)
 				return;
-			if (iPlayer.interract)
+			if (iPlayer.interract) {
+				iPlayer.interract = false;
 				if (FindObjectOfType<Inventory>().PickUp(obj))
 					Destroy(gameObject);
+			}
 
 		}
 	}
@@ -36,6 +38,7 @@ public class GroundObject : MonoBehaviour
 		InputsManager iPlayer = col.GetComponent<InputsManager>();
 		if (iPlayer != null)
 		{
+			iPlayer.interract = false;
 			isColliding = true;
 			objectColliding = col;
 		}

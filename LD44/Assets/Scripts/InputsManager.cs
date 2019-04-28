@@ -10,6 +10,7 @@ public class InputsManager : MonoBehaviour
 	float horizontalMove = 0f;
 	bool jump = false;
 	public bool p_up=false, p_down=false;
+	public bool canMove = true;
 	public bool interract = false;
 	public float Speed = 40f;
 	public Animator anim;
@@ -26,6 +27,8 @@ public class InputsManager : MonoBehaviour
 	public void Move(InputAction.CallbackContext context)
 	{
 		float mv = context.ReadValue<float>();
+		if (!canMove)
+			mv = 0;
 		horizontalMove = mv * Speed;
 		anim.SetBool("isWalking", mv != 0);
 		
@@ -36,8 +39,8 @@ public class InputsManager : MonoBehaviour
 	}
 	public void Interract(InputAction.CallbackContext context)
 	{
-		interract = !interract;
-		Debug.Log("Interract");
+		if (context.performed && !context.started)
+			interract = true;
 	}
 
 	public void Climb(InputAction.CallbackContext context)
