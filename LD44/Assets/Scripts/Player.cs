@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
 		Debug.Log(k);
 		show.AddScore();
 		anim.SetTrigger("Death");
+		soundPlayer.PlayDead(k);
 	}
 
 	internal void Jump()

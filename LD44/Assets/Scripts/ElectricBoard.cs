@@ -37,6 +37,10 @@ public class ElectricBoard : MonoBehaviour
 						iPlayer.GetComponent<Player>().Dead(dead.Defib);
 						inv.Remove(0);
 					}
+					else
+					{
+						iPlayer.GetComponent<SoundPlayer>().PlayElevator();
+					}
 					tp.enabled = true;
 					Debug.Log("ASCENSEURRRE !!ds!q!ds!");
 				}

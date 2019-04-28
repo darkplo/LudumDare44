@@ -27,7 +27,10 @@ public class GroundObject : MonoBehaviour
 			if (iPlayer.interract) {
 				iPlayer.interract = false;
 				if (FindObjectOfType<Inventory>().PickUp(obj))
+				{
+					iPlayer.GetComponent<SoundPlayer>().getDefib();
 					Destroy(gameObject);
+				}
 			}
 
 		}

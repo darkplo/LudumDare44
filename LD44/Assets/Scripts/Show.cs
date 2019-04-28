@@ -43,11 +43,16 @@ public class Show : MonoBehaviour
 		money += (audimat * n);
 		audimat += 60;
 		Invoke("Text", 1.5f);
-
+		Invoke("GetCommandBack", 4f);
+		FindObjectOfType<InputsManager>().enabled = false;
 	}
 	void Text()
 	{
 		scoreText.text = score + "/7\n" + money + "$";
+	}
+	void GetCommandBack()
+	{
+		FindObjectOfType<InputsManager>().enabled = true;
 	}
 	void GameOver()
 	{

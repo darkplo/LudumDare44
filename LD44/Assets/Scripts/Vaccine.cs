@@ -26,6 +26,7 @@ public class Vaccine : MonoBehaviour
 			if (iPlayer.interract)
 			{
 				iPlayer.interract = false;
+				iPlayer.GetComponent<SoundPlayer>().PlayVaccine();
 				Destroy(gameObject);
 			}
 		}
