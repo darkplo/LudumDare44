@@ -11,6 +11,10 @@ public class InventoryViewer : MonoBehaviour
 	{
 		inventory = FindObjectOfType<Inventory>();
 		inventory.Register(this);
+		foreach (Transform child in transform)
+		{
+
+		}
 	}
 
 }
