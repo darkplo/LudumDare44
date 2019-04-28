@@ -950,7 +950,6 @@ GameObject:
   - component: {fileID: 369017264}
   - component: {fileID: 369017263}
   - component: {fileID: 369017262}
-  - component: {fileID: 369017261}
   m_Layer: 10
   m_Name: Vaccines
   m_TagString: Untagged
@@ -958,19 +957,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &369017261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369017260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89082100bdd53ed4187eb93af13bb3d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 11400000, guid: 616685a72283d82469eb15fd0a79f620, type: 2}
 --- !u!58 &369017262
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2743,7 +2729,6 @@ GameObject:
   - component: {fileID: 1232706214}
   - component: {fileID: 1232706213}
   - component: {fileID: 1232706212}
-  - component: {fileID: 1232706211}
   m_Layer: 0
   m_Name: IV
   m_TagString: Untagged
@@ -2751,19 +2736,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1232706211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232706210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89082100bdd53ed4187eb93af13bb3d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 11400000, guid: d3e007c693b105049a1c119e1d75d7a6, type: 2}
 --- !u!58 &1232706212
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3560,10 +3532,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1682347481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89082100bdd53ed4187eb93af13bb3d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 73034d7e741bc724f9ac6664fc1597bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 11400000, guid: a529f120f6894ef4aac724fd4709ebdb, type: 2}
 --- !u!58 &1682347483
 CircleCollider2D:
   m_ObjectHideFlags: 0

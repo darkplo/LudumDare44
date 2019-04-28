@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ElectricBoard : MonoBehaviour
+public class Vaccine : MonoBehaviour
 {
-	public PlayerTeleportation tp;
-	Inventory inv;
 	BoxCollider2D m_collider;
 	private bool isColliding;
 	private Collider2D objectColliding;
+
 	// Start is called before the first frame update
 	void Start()
 	{
 		isColliding = false;
 		m_collider = GetComponent<BoxCollider2D>();
-		inv = FindObjectOfType<Inventory>();
-		
 	}
 
 	// Update is called once per frame
@@ -29,16 +26,7 @@ public class ElectricBoard : MonoBehaviour
 			if (iPlayer.interract)
 			{
 				iPlayer.interract = false;
-				if (inv.Contains(0))
-				{
-					if (tp.enabled)
-					{
-						Debug.Log("MORT AHAHA T NUL");
-						inv.Remove(0);
-					}
-					tp.enabled = true;
-					Debug.Log("ASCENSEURRRE !!ds!q!ds!");
-				}
+				Destroy(gameObject);
 			}
 		}
 	}
