@@ -34,4 +34,17 @@ public class Inventory : MonoBehaviour
 	{
 		invViewer = inventoryViewer;
 	}
+
+	internal bool Contains(int v)
+	{
+		bool k = false;
+		foreach (var item in slots)
+		{
+			if (item.typeObject == (invObjectsType)(v))
+			{
+				k = true;
+			}
+		}
+		return k;
+	}
 }

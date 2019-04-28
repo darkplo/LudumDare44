@@ -11,10 +11,14 @@ public class InventoryViewer : MonoBehaviour
 	{
 		inventory = FindObjectOfType<Inventory>();
 		inventory.Register(this);
-		foreach (Transform child in transform)
-		{
+		Invoke("Fix", .1f);
 
-		}
+	}
+	void Fix()
+	{
+
+		transform.GetChild(4).gameObject.SetActive(false);
+
 	}
 
 }
