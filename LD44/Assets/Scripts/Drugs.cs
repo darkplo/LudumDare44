@@ -8,6 +8,10 @@ public class Drugs : MonoBehaviour
 	private bool isColliding;
 	private Collider2D objectColliding;
     public GameObject image1;
+    public float delay = 3f;
+    public float delay_poison = 5f;
+    private float t_time = 0f;
+    private InputsManager iPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -21,18 +25,35 @@ public class Drugs : MonoBehaviour
 	{
 		if (isColliding)
 		{
-			InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
+			iPlayer = objectColliding.GetComponent<InputsManager>();
 			if (iPlayer == null)
 				return;
 			if (iPlayer.interract)
 			{
 				iPlayer.interract = false;
 				iPlayer.GetComponent<Player>().poisonned = true;
-				Destroy(gameObject);
-                image1.SetActive(true);
             }
 		}
-	}
+        if (iPlayer && iPlayer.GetComponent<Player>().poisonned)
+        {
+            t_time += Time.fixedDeltaTime;
+            if (t_time >= delay_poison)
+            {
+                image1.SetActive(true);
+                t_time = 0;
+            }
+        }
+        if (image1.activeInHierarchy)
+        {
+            t_time += Time.fixedDeltaTime;
+            if (t_time >= delay)
+            {
+                image1.SetActive(false);
+                t_time = 0;
+                Destroy(gameObject);
+            }
+        }
+    }
 
 	void OnTriggerEnter2D(Collider2D col)
 	{

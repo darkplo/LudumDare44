@@ -6,13 +6,18 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 	public bool poisonned = false;
-	float delay = 5;
+    public bool elevatorDead;
+    public GameObject door_closed;
+    public GameObject door_opened;
+    public Sprite door_broken;
+    public Sprite door_broken_open;
+    float delay = 5;
 	Show show;
 	public Animator anim;
 	SoundPlayer soundPlayer;
 	InputsManager im;
 	private int elevator;
-	bool elevatorDead;
+	
 
 	// Start is called before the first frame update
 	void Start()
@@ -36,6 +41,11 @@ public class Player : MonoBehaviour
 			}
 
 		}
+        if (elevatorDead)
+        {
+            door_closed.GetComponent<SpriteRenderer>().sprite = door_broken;
+            door_opened.GetComponent<SpriteRenderer>().sprite = door_broken_open;
+        }
     }
 
 	//0 Defib		OK

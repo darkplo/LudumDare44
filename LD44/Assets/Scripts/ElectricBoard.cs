@@ -10,6 +10,8 @@ public class ElectricBoard : MonoBehaviour
 	private bool isColliding;
 	private Collider2D objectColliding;
     public GameObject image1;
+    public float delay = 4f;
+    private float t_time = 0f;
     // Start is called before the first frame update
     void Start()
 	{
@@ -48,6 +50,15 @@ public class ElectricBoard : MonoBehaviour
 				}
 			}
 		}
+        if (image1.activeInHierarchy)
+        {
+            t_time += Time.fixedDeltaTime;
+            if (t_time >= delay)
+            {
+                image1.SetActive(false);
+                t_time = 0;
+            }
+        }
 	}
 
 	void OnTriggerEnter2D(Collider2D col)

@@ -9,6 +9,5 @@ public class quit : MonoBehaviour
     public void Gameover()
     {
         SceneManager.LoadScene("MainMenu");
-        image1.SetActive(false);
     }
 }

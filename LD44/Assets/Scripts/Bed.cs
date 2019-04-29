@@ -8,6 +8,8 @@ public class Bed : MonoBehaviour
 	private bool isColliding;
 	private Collider2D objectColliding;
     public GameObject image1;
+    public float delay = 3f;
+    private float t_time = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +30,20 @@ public class Bed : MonoBehaviour
 			{
 				iPlayer.interract = false;
 				iPlayer.GetComponent<Player>().Dead(dead.Bed);
-				Destroy(gameObject);
                 image1.SetActive(true);
             }
 		}
-	}
+        if (image1.activeInHierarchy)
+        {
+            t_time += Time.fixedDeltaTime;
+            if (t_time >= delay)
+            {
+                image1.SetActive(false);
+                t_time = 0;
+                Destroy(gameObject);
+            }
+        }
+    }
 
 	void OnTriggerEnter2D(Collider2D col)
 	{

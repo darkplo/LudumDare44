@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Show : MonoBehaviour
 {
 	int score;
-	int money;
+	public int money;
 	public int audimat;
 	int n;
 	public TMPro.TMP_Text scoreText;

@@ -9,6 +9,9 @@ public class BOX : MonoBehaviour
     private bool isColliding;
     private Collider2D objectColliding;
     public GameObject image1;
+    public float delay = 5f;
+    private float t_time = 0f;
+    public Show s_show;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +28,20 @@ public class BOX : MonoBehaviour
             InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
             if (iPlayer == null)
                 return;
-            if (iPlayer.interract)
+            if (iPlayer.interract && s_show.money >= 2000)
             {
                 iPlayer.interract = false;
                 image1.SetActive(true);        
+            }
+        }
+        if (image1.activeInHierarchy)
+        {
+            t_time += Time.fixedDeltaTime;
+            if (t_time >= delay)
+            {
+                image1.SetActive(false);
+                t_time = 0;
+                SceneManager.LoadScene("MainMenu");
             }
         }
     }
