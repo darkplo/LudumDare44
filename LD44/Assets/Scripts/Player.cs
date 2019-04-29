@@ -17,10 +17,14 @@ public class Player : MonoBehaviour
 	SoundPlayer soundPlayer;
 	InputsManager im;
 	private int elevator;
-	
+    private bool elevatorRuned = false;
+    public GameObject elevator_death;
+    public float delay_elevator = 3f;
+    private float t_time = 0f;
 
-	// Start is called before the first frame update
-	void Start()
+
+    // Start is called before the first frame update
+    void Start()
     {
 		elevator = 0;
 		show = FindObjectOfType<Show>();
@@ -41,10 +45,21 @@ public class Player : MonoBehaviour
 			}
 
 		}
-        if (elevatorDead)
+        if (elevatorDead && !elevatorRuned)
         {
             door_closed.GetComponent<SpriteRenderer>().sprite = door_broken;
             door_opened.GetComponent<SpriteRenderer>().sprite = door_broken_open;
+            elevator_death.SetActive(true);
+            elevatorRuned = true;
+        }
+        if (elevator_death.activeInHierarchy)
+        {
+            t_time += Time.deltaTime;
+            if (t_time >= delay_elevator)
+            {
+                elevator_death.SetActive(false);
+                t_time = 0;
+            }
         }
     }
 
