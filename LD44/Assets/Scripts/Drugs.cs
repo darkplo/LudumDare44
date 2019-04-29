@@ -8,10 +8,11 @@ public class Drugs : MonoBehaviour
 	private bool isColliding;
 	private Collider2D objectColliding;
     public GameObject image1;
-    public float delay = 3f;
+    public float delay = 6f;
     public float delay_poison = 5f;
     private float t_time = 0f;
     private InputsManager iPlayer;
+    private bool poisoned = false;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,8 @@ public class Drugs : MonoBehaviour
             }
 		}
         if (iPlayer && iPlayer.GetComponent<Player>().poisonned)
+            poisoned = true;
+        if (poisoned)
         {
             t_time += Time.fixedDeltaTime;
             if (t_time >= delay_poison)

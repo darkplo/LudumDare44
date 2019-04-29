@@ -2404,7 +2404,7 @@ GameObject:
   - component: {fileID: 952060735}
   - component: {fileID: 952060734}
   - component: {fileID: 952060733}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EXIT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2425,6 +2425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image1: {fileID: 1469151927}
   delay: 5
+  s_show: {fileID: 1607114768}
 --- !u!61 &952060734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3934,6 +3935,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 1080
       objectReference: {fileID: 0}
+    - target: {fileID: 1445490947928122523, guid: ebfc0c374854c374eb299d69a184ab49,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d09f437b93e5754aaceee11affb1623, type: 3}
+    - target: {fileID: 8686666461981830451, guid: ebfc0c374854c374eb299d69a184ab49,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: f3fbb6311d06d3a428d28e3be4cdea4d, type: 3}
+    - target: {fileID: 3623679380295724791, guid: ebfc0c374854c374eb299d69a184ab49,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 1a2bbd85334a4004bbad52572f39e806, type: 3}
+    - target: {fileID: 6411576609569791906, guid: ebfc0c374854c374eb299d69a184ab49,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: d8c488bee80993646b225cf691b55883, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebfc0c374854c374eb299d69a184ab49, type: 3}
 --- !u!1 &1232706210
@@ -4349,6 +4370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5166f8f4b9c29c24b9d6f7bf812d7518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  money: 0
   audimat: 0
   scoreText: {fileID: 2023870609}
   slider: {fileID: 1326619493}
@@ -5067,7 +5089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image1: {fileID: 71524832}
-  delay: 3
+  delay: 4
   delay_poison: 5
 --- !u!58 &1682347483
 CircleCollider2D:
