@@ -7,6 +7,8 @@ public class Cape : MonoBehaviour
 	BoxCollider2D m_collider;
 	private bool isColliding;
 	private Collider2D objectColliding;
+    public GameObject image1;
+
 
 	// Start is called before the first frame update
 	void Start()
@@ -28,6 +30,7 @@ public class Cape : MonoBehaviour
 				iPlayer.interract = false;
 				iPlayer.GetComponent<Player>().Dead(dead.Cape);
 				Destroy(gameObject);
+                image1.SetActive(true);  
 			}
 		}
 	}

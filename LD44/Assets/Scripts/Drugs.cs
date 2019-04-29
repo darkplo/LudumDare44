@@ -7,9 +7,10 @@ public class Drugs : MonoBehaviour
 	BoxCollider2D m_collider;
 	private bool isColliding;
 	private Collider2D objectColliding;
+    public GameObject image1;
 
-	// Start is called before the first frame update
-	void Start()
+    // Start is called before the first frame update
+    void Start()
 	{
 		isColliding = false;
 		m_collider = GetComponent<BoxCollider2D>();
@@ -28,7 +29,8 @@ public class Drugs : MonoBehaviour
 				iPlayer.interract = false;
 				iPlayer.GetComponent<Player>().poisonned = true;
 				Destroy(gameObject);
-			}
+                image1.SetActive(true);
+            }
 		}
 	}
 
