@@ -10,6 +10,7 @@ public class Bed : MonoBehaviour
     public GameObject image1;
     public float delay = 3f;
     private float t_time = 0f;
+    bool isDone = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +27,12 @@ public class Bed : MonoBehaviour
 			InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
 			if (iPlayer == null)
 				return;
-			if (iPlayer.interract)
+			if (iPlayer.interract && !isDone)
 			{
 				iPlayer.interract = false;
 				iPlayer.GetComponent<Player>().Dead(dead.Bed);
                 image1.SetActive(true);
+                isDone = true;
             }
 		}
         if (image1.activeInHierarchy)

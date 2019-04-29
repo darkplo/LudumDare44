@@ -12,6 +12,7 @@ public class ElectricBoard : MonoBehaviour
     public GameObject image1;
     public float delay = 4f;
     private float t_time = 0f;
+    bool isDone = false;
     // Start is called before the first frame update
     void Start()
 	{
@@ -34,11 +35,12 @@ public class ElectricBoard : MonoBehaviour
 				iPlayer.interract = false;
 				if (inv.Contains(0))
 				{
-					if (tp.enabled)
+					if (tp.enabled && !isDone)
 					{
 						Debug.Log("MORT AHAHA T NUL");
 						iPlayer.GetComponent<Player>().Dead(dead.Defib);
                         image1.SetActive(true);
+                        isDone = true;
                         inv.Remove(0);
 					}
 					else

@@ -1285,6 +1285,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &440159683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3780775826728798, guid: ebfc0c374854c374eb299d69a184ab49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1230682873}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &458670239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,7 +2977,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.2836933
+  orthographic size: 4.22
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5686,6 +5692,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e050dd30f087f248abd9c9be7a0d953,
         type: 3}
+    - target: {fileID: 7035216363058645477, guid: ecd58139141072f4b8a2aec93fd403cd,
+        type: 3}
+      propertyPath: elevator_death
+      value: 
+      objectReference: {fileID: 440159683}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecd58139141072f4b8a2aec93fd403cd, type: 3}
 --- !u!1 &1932093007 stripped

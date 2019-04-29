@@ -13,6 +13,7 @@ public class Drugs : MonoBehaviour
     private float t_time = 0f;
     private InputsManager iPlayer;
     private bool poisoned = false;
+    bool isDone = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +30,10 @@ public class Drugs : MonoBehaviour
 			iPlayer = objectColliding.GetComponent<InputsManager>();
 			if (iPlayer == null)
 				return;
-			if (iPlayer.interract)
+			if (iPlayer.interract && !isDone)
 			{
 				iPlayer.interract = false;
+                isDone = true;
 				iPlayer.GetComponent<Player>().poisonned = true;
             }
 		}

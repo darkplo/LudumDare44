@@ -10,6 +10,7 @@ public class Cape : MonoBehaviour
     public GameObject image1;
     public float delay = 3f;
     private float t_time = 0f;
+    bool isDone = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +27,13 @@ public class Cape : MonoBehaviour
 			InputsManager iPlayer = objectColliding.GetComponent<InputsManager>();
 			if (iPlayer == null)
 				return;
-			if (iPlayer.interract)
+			if (iPlayer.interract && !isDone)
 			{
 				iPlayer.interract = false;
 				iPlayer.GetComponent<Player>().Dead(dead.Cape);
-                image1.SetActive(true);  
-			}
+                image1.SetActive(true);
+                isDone = true;
+            }
 		}
         if (image1.activeInHierarchy)
         {
